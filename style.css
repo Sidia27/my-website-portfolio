@@ -38,3 +38,16 @@ header {
 .navigation a:hover {
   color: #601cfc;
 }
+
+section {
+  padding: 100px 200px;
+}
+.main {
+  width: 100%; /*bech tkon il main fi kobr il page*/
+  min-height: 100vh; /*hedi taille relatif */
+  display: flex;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+}
