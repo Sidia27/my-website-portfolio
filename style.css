@@ -44,10 +44,61 @@ section {
 }
 .main {
   width: 100%; /*bech tkon il main fi kobr il page*/
-  min-height: 100vh; /*hedi taille relatif */
+  min-height: 100vh; /*hedi taille relatif a9al haja (vh:view port)  */
   display: flex;
   align-items: center;
-
-  background-size: cover;
+  background-image: url(images/resolution.jpg);
+  background-size: cover; /*taswira tcoveri les elements lo5rin w tji kamla */
   background-position: center;
+  background-attachment: fixed; /*ya3ni ki tji ta3mel scroll taswira metetharakich */
+}
+
+.main h2 {
+  color: #f0f0f0;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4e9eff;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: #f0f0f0;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: #f0f0f0;
+  background-color: #3e6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block; /*badelt il a tag lil inline block bech najem nethakem fih fil margin wil bottom */
+  padding: 0.9375em 2.187em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(
+    1.1
+  ); /*hedi t5ali il button ki t3adi aleha souris tekbar b 10% bil taille te3ha */
+}
+
+.social-icons a {
+  color: #f0f0f0;
+  font-size: 1.7em;
+  padding-left: 30px;
 }
